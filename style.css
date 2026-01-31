@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+body {
+  margin: 0;
+  font-family: "Press Start 2P", sans-serif;
+  height: 100%;
+}
+
+header {
+  background-color: #222;
+  height: 35vh;
+  border-bottom: 7px solid white;
+}
+
+#headerOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  padding: 20px;
+}
+
+#headerButton {
+  width: 200px;
+  height: 60px;
+  font-family: "Press Start 2P", sans-serif;
+  border: none;
+  font-size: 25px;
+}
+
+#headerButton:hover {
+  background-color: gray;
+}
+
+#headerParagraph {
+  font-size: 20px;
+  color: white;
+}
+
+#headerHeading {
+  color: white;
+  font-size: 40px;
+}
+
+#headingDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#centerBox {
+  width: 150px;
+  height: 100px;
+  color: #222;
+  background-color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  bottom: 55px;
+}
+
+main {
+  background-color: #222;
+  height: 64vh;
+}
+
+#mainDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mainDivOne {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mainDivTwo {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#guess {
+  width: 230px;
+  height: 90px;
+  border: white solid 4px;
+  background-color: #222;
+  color: white;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#check {
+  border: none;
+  width: 150px;
+  height: 60px;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 20px;
+}
+
+#check:hover {
+  background-color: grey;
+}
+
+#twoDiv {
+  color: white;
+  font-size: 20px;
+}
+
+#scoreDiv {
+  color: white;
+}
